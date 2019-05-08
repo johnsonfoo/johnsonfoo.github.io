@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Johnson's Blog"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Johnson Foo"
+description              : "Best of Johnson's experiences"
 url                      : "https://johnsonfoo.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/johnsonfoo.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "johnsonfoo/johnsonfoo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,8 +107,8 @@ analytics:
 # Site Author
 author:
   name             : "Johnson Foo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "DSAI Student"
+  avatar           : "/assets/images/Profile Picture.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I love to try out new things"
   location         : "Nanyang Technological University"
   email            :
   links:
