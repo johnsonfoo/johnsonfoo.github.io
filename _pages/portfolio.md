@@ -1,11 +1,12 @@
 ---
 title:  "Portfolio"
-layout: archive
+layout: collection
 permalink: /portfolio/
-author_profile: true
-comments: true
+collection: portfolio
+entries_layout: grid
+classes: wide
 ---
-
+<!-- 
 {% for post in site.portfolio %}
     {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
