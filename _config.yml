@@ -283,7 +283,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  module review:
+  module-review:
     output: true
     permalink: /:collection/:path/
 
@@ -318,7 +318,7 @@ defaults:
   #_module review
   - scope:
       path: ""
-      type: module review
+      type: module-review
     values:
       layout: single
       author_profile: true
