@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Johnson Foo"
-  avatar           : "/assets/images/Profile Picture.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Profile Picture.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I love to try out new things"
   location         : "Nanyang Technological University"
   email            :
@@ -297,7 +297,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
   # _pages
