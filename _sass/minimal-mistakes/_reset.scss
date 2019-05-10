@@ -11,15 +11,15 @@ html {
   font-size: 14px; //16px https://github.com/mmistakes/minimal-mistakes/issues/1043
 
   @include breakpoint($medium) {
-    font-size: 14px; //18
+    font-size: 16px; //18
   }
 
   @include breakpoint($large) {
-    font-size: 14px; //20
+    font-size: 18px; //20
   }
 
   @include breakpoint($x-large) {
-    font-size: 12px; //22
+    font-size: 20px; //22
   }
 
   -webkit-text-size-adjust: 100%;
