@@ -6,5 +6,5 @@ collection: module-review
 author_profile: true
 comments: true
 header: 
-    image: "/images/Data Science Banner.png"
+    overlay_image: "/images/Data Science Banner.png" # 1280 x
 ---
