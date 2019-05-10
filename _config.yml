@@ -22,7 +22,7 @@ name                     : "Johnson Foo"
 description              : "Best of Johnson's experiences"
 url                      : "https://johnsonfoo.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/johnsonfoo.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "johnsonfoo/johnsonfoo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # "johnsonfoo/johnsonfoo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Johnson Foo"
   avatar           : "/images/Profile Picture.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I love to try out new things"
+  bio              : "Trying out new things"
   location         : "Nanyang Technological University"
   email            :
   links:
@@ -297,8 +297,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
+      # comments:  true
+      # share: true
       related: true
   # _pages
   - scope:
@@ -314,7 +314,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      # share: true
   #_module review
   - scope:
       path: ""
@@ -323,4 +323,4 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      share: true
+      # share: true
